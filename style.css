@@ -1,0 +1,81 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #006400; /* Dark green color */
+  font-weight: bold;
+  font-size: 16px; /* Adjust the font size as needed */
+  background-color: rgba(0, 100, 0, 0.2); /* Semi-transparent dark green background */
+  padding: 8px 12px; /* Adjust padding as needed */
+  border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+img {
+  width: 10%; 
+  border-radius: 10px;
+}
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: transparent; 
+  color: #008cff; 
+  cursor: pointer;
+  padding: 0;
+  border-radius: 5px;
+  
+}
+
+#topBtn:hover {
+  background-color: transparent; /* Set the hover background color to transparent */
+}
+
+#topBtn span.arrow {
+  font-size: 100px; /* Adjust the size of the arrow */
+  font-weight: bolder;
+  transform: rotate(90deg); /* Rotate the arrow 90 degrees counter-clockwise */
+  display: inline-block; /* Make the span an inline block to apply rotation */
+  margin-right: 5px; /* Add some spacing between the arrow and the text */
+  vertical-align: middle; /* Align the arrow vertically with the text */
+}
+
+.article-link-button {
+  display: inline-block;
+  padding: 5px 5px;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  background-color: #0c65a1;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  
+  transition: background-color 0.3s;
+}
+/* Hover effect for the button */
+.article-link-button:hover 
+{
+  background-color: rgb(236, 242, 119);
+}
+p {
+  font-size: larger;
+  display: block;
+      margin-block-start: 0;
+      margin-block-end: 5px;  
+    }
